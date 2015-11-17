@@ -1,0 +1,88 @@
+
+.plateBG {
+	background: url(../img/comp_plate_graybasic.png) no-repeat;
+	width: 323px;
+    height: 337px;
+}
+.productCover img {
+	height: 200px;
+    width: 318px;
+    border-radius: 0.5em;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.mainContent {
+	margin-left: 10px;
+	font-family: sans-serif;
+}
+header, .showDetails {
+	color: #f06207;
+}
+.descriptionBody, .showDetails, .showDescDetails {
+	font-size: 0.6em;
+}
+.showDescDetails {
+	color: #848684;
+	margin-right: 15px;
+}
+header, article, .showDetails, nav {
+	display: block;	
+}
+header {
+    font-weight: bold;
+}
+.descriptionBody {
+    margin: 5px 20px 5px 0;
+    line-height: 1.4em;
+    overflow: auto;
+}
+a:focus {
+	color: #633810;
+}
+nav ul {
+	list-style: none;
+	padding-left: 10px;
+	margin-bottom: 5px;
+    margin-top: 0px;
+}
+nav ul li {
+	display: inline;	
+}
+footer {
+	/*padding-top: 9em;
+    position: absolute;
+    width: calc(100% - 100px);*/
+}
+.navButton {
+	width: 68px;
+    height: 26px;
+    float: left;
+}
+.goLeft {
+	background: url(../img/button_bg_white_left.png) no-repeat;
+	background-size: 3.8em;
+}
+.goLeft:hover {
+	background: url(../img/button_bg_orange_left.png) no-repeat;
+	background-size: 3.8em;
+}
+.goRight {
+	background: url(../img/button_bg_white_right.png) no-repeat;
+	background-size: 3.8em;
+}
+.goRight:hover {
+	background: url(../img/button_bg_orange_right.png) no-repeat;
+	background-size: 3.8em;
+}
+.findAStore, .findAStore:hover {
+	background: url(../img/long_button_white_right.png) no-repeat;
+	background-size: 6.8em;
+	float: right;
+    height: 26px;
+    width: 120px;
+}
+.findAStore:hover {
+	background: url(../img/long_button_orange_right.png) no-repeat;
+	background-size: 6.8em;
+}
+

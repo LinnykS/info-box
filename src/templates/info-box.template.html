@@ -1,0 +1,22 @@
+<div class="plateBG">
+	<div class="productCover" ng-hide="ctrl.hideProductCover">
+		<img ng-src="src/img/{{ctrl.product.img || ctrl.products[0].img}}" />
+	</div>
+	<section class="mainContent">
+		<header> {{ctrl.product.title || ctrl.products[0].title}} </header>
+		<article class="descriptionBody"> {{ctrl.product.description || ctrl.products[0].description}} </article>
+		<article class="showDescDetails" ng-show="ctrl.showDescriptionDetails"> {{ctrl.product.note || ctrl.products[0].note}} </article>
+		<span>
+			<a href="#" class="showDetails" ng-click="ctrl.showDetails()">{{ctrl.showDetailsTitle}}</a>
+		</span>
+	</section>
+	<footer>
+		<nav class="navigation">
+			<ul>
+				<li><a class="navButton goLeft" ng-click="ctrl.switcher(-1)" href="#{{ctrl.product.productUrl}}"></a></li>
+				<li><a class="navButton goRight" ng-click="ctrl.switcher(1)" href="#{{ctrl.product.productUrl}}"></a></li>
+				<li><a class="findAStore" href="#"></a></li>
+			</ul>
+		</nav>
+	</footer>
+</div>
